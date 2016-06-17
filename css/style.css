@@ -1,0 +1,43 @@
+
+
+.wrapper{
+	/*background-image: url("../images/cubes.png");*/
+
+
+}
+
+.thingform{
+	height:80px;
+	background-color: black;
+	margin-top: 40px;
+	padding: 25px;
+	color: white;
+}
+
+#thing-input{
+	color: black;
+}
+
+
+.bthing{
+	background-image: url("../images/a4.jpg");
+	color: black;	
+	margin:5px;
+}
+.buttonCollection{
+	margin-top: 40px;
+}
+
+.dThing{
+	margin-top: 40px;
+}
+img{
+	margin: 15px;
+	height: 200PX;
+	width: 200px;
+}
+.gifpic{
+	  display: inline-block;
+}
+#thingsGoHere{	
+}
