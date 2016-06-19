@@ -5,6 +5,8 @@
 	<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity = "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel= "stylesheet">
 	<script src="https://code.jquery.com/jquery-2.2.3.js"></script> 
   <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script> 
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -28,6 +30,9 @@
              <th>Next Arrival</th>
              <th>Minutes Away</th>    
           </tr>
+          <tbody>
+            
+          </tbody>
         </table>  
       </div>
     </div>
@@ -41,7 +46,7 @@
       <div class="panel-body">
         <div class="form-group">
           <label for="docTrain">Train Name: </label>
-            <input type="text" class="form-control" id="docTrain" placeholder="train">
+            <input type="text" class="form-control" id="docTrain" >
 
           <label for="docDestination">Destination: </label>
             <input type="text" class="form-control" id="docDestination" >
@@ -50,7 +55,7 @@
             <input type="time" class="form-control" id="docStart">
 
           <label for="docFrequency"> Frequency:</label>
-            <input type="time" class="form-control" id="docFrequency" >
+            <input type="number" class="form-control" id="docFrequency" >
         
         </div>
           <button type="submit" id="#submitbutton" class="btn btn-default">Submit</button>
